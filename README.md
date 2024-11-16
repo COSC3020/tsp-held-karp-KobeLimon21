@@ -46,3 +46,14 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+Sources:
+
+https://github.com/COSC3020/tsp-held-karp-tlaceby/blob/main/code.js and https://github.com/COSC3020/tsp-held-karp-JamesOzzyburn/blob/main/code.js - looked at both of these implementations
+
+https://www.geeksforgeeks.org/traveling-salesman-problem-tsp-implementation/ 
+
+https://www.slingacademy.com/article/cachestorage-in-javascript-a-practical-guide-with-examples/  
+
+
