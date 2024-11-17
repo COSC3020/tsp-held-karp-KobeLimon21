@@ -50,7 +50,7 @@ reasoning, to this markdown file.
 
 The worst case for my implemenation is $\Theta(n^2 * 2^n)$. The 2^n comes from exploring all possible sub sets of cities, because each subset must be considered in order to compute the shortest path. The n^2 comes from iterating over each subset to process the cities within it. 
 
-The worst case memory complexity is $\Theta(n * 2^n)$ as the cache has to store all the subsets which is equivalent to 2^n and also the matrix itself which is just n. 
+The worst case memory complexity is $\Theta(n^2 * 2^n)$ as the cache has to store all the subsets which is equivalent to 2^n and also the matrix itself which is n^2. 
 
 Sources:
 
