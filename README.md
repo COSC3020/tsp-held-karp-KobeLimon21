@@ -46,3 +46,20 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+The worst case for my implemenation is $\Theta(n^2 * 2^n)$. The 2^n comes from exploring all possible sub sets of cities, because each subset must be considered in order to compute the shortest path. The n^2 comes from iterating over each subset to process the cities within it. 
+
+The worst case memory complexity is $\Theta(n^2 * 2^n)$ as the cache has to store all the subsets which is equivalent to 2^n and also the matrix itself which is n^2. 
+
+Sources:
+
+https://github.com/COSC3020/tsp-held-karp-tlaceby/blob/main/code.js and https://github.com/COSC3020/tsp-held-karp-JamesOzzyburn/blob/main/code.js - looked at both of these implementations
+
+https://www.geeksforgeeks.org/traveling-salesman-problem-tsp-implementation/ 
+
+https://www.slingacademy.com/article/cachestorage-in-javascript-a-practical-guide-with-examples/  
+
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
